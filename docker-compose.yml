@@ -1,0 +1,4 @@
+nodejs:
+  image: registry.aliyuncs.com/jingshanlb/nodejs-jenkins-demo
+  ports:
+    - '3000:3000'
