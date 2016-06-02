@@ -22,6 +22,6 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 ## Release History
 - **v0.0.1**, *TBD*
     - Big Bang
-    
+
 ## License
 Copyright (c) 2016 . Licensed under the MIT license.
