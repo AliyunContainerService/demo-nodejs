@@ -1,6 +1,5 @@
 # demo [![Build Status](https://secure.travis-ci.org//demo.png?branch=master)](http://travis-ci.org//demo)
 
-
 The best module ever.
 
 ## Getting Started
