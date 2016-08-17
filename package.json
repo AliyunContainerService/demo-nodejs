@@ -31,5 +31,12 @@
     "load-grunt-tasks": "~0.2.0",
     "mocha": "~1.17.1",
     "time-grunt": "~0.1.1"
+  },
+  "dependencies": {
+    "connect-redis": "^3.1.0",
+    "express": "^4.14.0",
+    "express-session": "^1.14.0",
+    "hiredis": "^0.5.0",
+    "redis": "^2.6.2"
   }
 }
