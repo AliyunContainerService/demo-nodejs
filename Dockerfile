@@ -31,4 +31,6 @@ EXPOSE 22
 
 WORKDIR /workspace
 
+ENV COUNTER_ADDRESS http://127.0.0.1:80/incr
+
 ENTRYPOINT ["node","lib/demo_server.js"]

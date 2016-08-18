@@ -1,4 +1,12 @@
 nodejs:
-  image: registry.aliyuncs.com/jingshanlb/nodejs-jenkins-demo
+  image: registry.cn-hangzhou.aliyuncs.com/jiangjizhong/demo-nodejs:latest
+  environment:
+    COUNTER_ADDRESS: http://bing.com/incr
   ports:
     - '3000:3000'
+  links: 
+    - redis
+
+redis:
+    image: redis
+
