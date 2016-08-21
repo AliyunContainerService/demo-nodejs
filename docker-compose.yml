@@ -1,7 +1,9 @@
 nodejs:
-  image: registry.cn-hangzhou.aliyuncs.com/jiangjizhong/demo-nodejs:latest
+  build: .
   environment:
-    COUNTER_ADDRESS: http://bing.com/incr
+    BACKEND: http://bing.com/incr
+  labels:
+    aliyun.routing.port_3000: demo-nodejs
   ports:
     - '3000:3000'
   links: 

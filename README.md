@@ -1,28 +1,8 @@
-# demo 
+说明 
+====
 
-The best module ever.
+一个Nodejs+Redis+Backend Service的例子。部署之后，每次访问，会返回当前用户的IP地址和此IP地址总计访问的次数。访问次数保存在Redis里。如果配置了环境变量`BACKEND`，每次请求，都会向`BACKEND`发送一次请求。
 
-## Getting Started
-Install the module with: `npm install demo`
-
-```javascript
-var demo = require('demo');
-demo.awesome(); // "awesome"
-```
-
-## Documentation
-_(Coming soon)_
-
-## Examples
-_(Coming soon)_
-
-## Contributing
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
-
-## Release History
-- **v0.0.1**, *TBD*
-    - Big Bang
-
-## License
-Copyright (c) 2016 . Licensed under the MIT license.
+部署
+====
 
