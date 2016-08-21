@@ -6,3 +6,5 @@
 部署
 ====
 
+为了能运行此程序，你需要先安装Docker和docker-compose，然后运行`docker-compose up`，运行成功后访问`http://localhost:3000/`，如果Docker在远程，需要修改对应的IP地址。
+
